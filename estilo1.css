@@ -1,0 +1,318 @@
+
+.sup{
+	background-color: white;
+	width: 1000px;
+	height: 40px;
+    margin: 0 auto; 
+
+} 
+
+ .ulmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  height: 60px;
+
+}
+
+.menu {
+  float: left;
+}
+
+
+.menu1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+
+a.activo:hover {
+  background-color: #111111;
+}
+
+
+body {
+	background-color: #DCDCDC;
+	margin: 0 auto;
+}
+
+.caja{
+	background-color: white;
+	width: 1000px;
+    margin: 0 auto; 
+    
+  }
+
+
+.enc1 {
+	font-family: cambria, sans-serif;
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+	margin:15px;
+	font-size: 1em;
+}
+
+.enc2 {
+	font-family: cambria, sans-serif;
+	background-color: #F4A460;
+	text-align: center;
+	padding: 10px;
+	margin:15px;
+	font-size: 1em;
+}
+
+.enc3 {
+	font-family: cambria, sans-serif;
+	background-color:#5995DA;
+	text-align: center;
+	padding: 10px;
+	margin:15px;
+	font-size: 1em;
+}
+
+.enc4 {
+	font-family: cambria, sans-serif;
+	background-color:#228B22;
+	text-align: center;
+	padding: 10px;
+	margin:15px;
+	font-size: 1em;
+}
+
+
+.parr {
+   font-family:Arial, "Helvetica Neue", Helvetica; 
+   text-align:left;
+   font-size: 1em;
+   font-weight: lighter;
+   padding: 20px 0px 0px 0px;
+   width: 700px;
+   margin: 0 auto;	
+
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+
+}
+
+
+.img {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	
+}
+
+.img2{display:flex;
+	justify-content: center;
+
+}
+
+#img2 {display: block;
+
+}
+
+.menu2 {
+
+	display:inline;
+	padding: 10px 20px 10px 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border-style: solid;
+	border-color:  black;
+	background:#A52A2A;
+	text-align: center;
+	font-family: Arial; color: white;
+	margin: 10px 10px;
+	width: 250px;
+
+}
+
+footer{
+	 
+	 display: flex;
+	justify-content: center;
+	 	   	    
+}
+
+.column {
+	float: left;
+	width: 21%;
+	margin: 20px 1.15%;
+	box-sizing: border-box;
+	height: 160px;
+	background-color: #DC143C;
+}
+
+
+#primer{
+	background-image: url(Imagenes/familia2.jfif)
+
+}
+
+#seg {
+	background-image: url(Imagenes/niños2.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tercer{
+	background-image: url(Imagenes/biblia.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cuarto {
+	background-image: url(Imagenes/fe-en-Dios1.jpg);
+
+}
+.username{
+	display: flex;
+	/*width: 100%;*/
+	margin-top: 30px; 
+	font-weight: bolder;
+	color: white;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+	align-items: flex-end;
+}
+
+.videosHome{
+	width: 60%;
+	margin: 1em auto;
+}
+
+.pie {
+	display: flex;
+	justify-content: center;
+	background-color: #333333;
+	height: 50px;
+}
+
+#final {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#coment {
+  color: #F4A460;
+  text-align: left;
+  font-weight: bolder;
+  height: 300px;
+  width: 300px;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+
+}
+
+#coment3{
+
+  color: #5995DA;
+  text-align: left;
+  font-weight: bolder;
+  height: 300px;
+  width: 300px;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+
+}
+
+#coment4 {
+  color: #228B22;
+  text-align: left;
+  font-weight: bolder;
+  height: 300px;
+  width: 300px;
+  text-shadow: -1px -1px 1px #333, 1px -1px 1px #333, -1px 1px 1px #333, 1px 1px 1px #333;
+
+}
+
+
+}
+#video {display: block;
+
+}
+.boton {
+	display:flex;
+	justify-content: center;	
+	
+  }
+  	
+
+.boton2{ 
+	color: #FFF;
+  	font-weight: bold;
+  	padding: 20px;
+ 	text-align: center;
+ 	width: 40%;
+ 	background-color: #F4A460;  	
+  	border: 2px solid #5D6063;
+  	border-radius: 5px;
+  	margin: 15px;
+  	text-decoration: none;
+}
+
+.boton3{ 
+	color: #FFF;
+  	font-weight: bold;
+  	padding: 20px;
+ 	text-align: center;
+ 	width: 40%;
+ 	background-color: #5995DA;  	
+  	border: 2px solid #5D6063;
+  	border-radius: 5px;
+  	margin: 15px;
+  	text-decoration: none;
+}
+
+
+.boton4{ 
+	color: #FFF;
+  	font-weight: bold;
+  	padding: 20px;
+ 	text-align: center;
+ 	width: 40%;
+ 	background-color: #228B22;  	
+  	border: 2px solid #5D6063;
+  	border-radius: 5px;
+  	margin: 15px;
+  	text-decoration: none;
+}
+
+h2 {display: block;
+	font-family: cambria, sans-serif;
+	text-align: center;
+	padding: 10px;
+	margin:15px;
+	font-size: 1em;
+
+}
+
+.nada{ 
+	color: #5995DA;
+  	font-weight: bold;
+  	padding: 20px;
+ 	text-align: left;
+ 	text-decoration: none;
+}
+
+.nada1{ 
+	color: #228B22;
+  	font-weight: bold;
+  	padding: 20px;
+ 	text-align: left;
+ 	text-decoration: none;
+}

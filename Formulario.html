@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+	<meta name="viewport" content="width"=device-width, initial-scale="1.0">
+	<meta charset="utf-8">
+	<title>Formularios</title>
+</head>
+<body>
+
+<div class="caja">
+
+ <div class="sup"></div>
+
+<ul class="ulmenu">
+  <li class="menu"> <a class="menu1" href="https://www.jw.org" target="_blank"><img src="./Imagenes/logo_jw.png" title="jw.org" alt="logo jw.org" height="50" width="50"></a></li>
+  <li class="menu"><a class="menu1 activo"; href="index.html">Inicio</a></li>
+  <li class="menu"><a class="menu1 activo" href="https://www.jw.org/es/ense%C3%B1anzas-b%C3%ADblicas/" target="blank">Enseñanzas Biblicas</a></li>
+  <li class="menu"><a class="menu1 activo" href="https://www.jw.org/es/biblioteca/" target="blank">Biblioteca</a></li>
+  <li class="menu"><a class="menu1 activo" href="https://www.jw.org/es/testigos-de-jehov%C3%A1/preguntas-frecuentes/" target="blank">Sobre nosotros</a></li>
+
+</ul>
+	<h2>Formulario de Suscripción</h2>
+	<form>
+	<div>
+			<label  for="nombre">Nombres</label><br>
+			<input class="normal" type="text" name="nombre" value="" id="nombre">
+		</div>
+		<br>
+
+		<div>
+			<label for="apellido">Apellido</label><br>
+			<input class="normal" type="text" name="apellido" value="" id="apellido">
+		</div>
+		<br>
+
+		<div>
+			<label  for="email">Email</label><br>
+			<input class="normal" type="text" name="email" value="" placeholder="nombre@gmail.com" id="email">
+		</div>
+		<br>
+
+		<div>
+			<label  for="contrasena">Contraseña</label><br>
+			<input class="normal" type="password" name="contrasena" value="" placeholder="drty562" id="contrasena">
+		</div>
+		<br>
+	
+		<br>
+
+		<div>
+			<fieldset>
+            <legend> Material que desea recibir</legend>
+			<input class="normal" type="checkbox" name="Libros" checked="checked"> Libros en Papel<br>
+			<input class="normal" type="checkbox" name="Libros" checked="checked"> Libros en PDF<br>
+			<input type="checkbox" name="libros"> Libros en MP3<br>
+			<input class="normal" type="checkbox" name="revistas"> Revistas en Papel <br>
+			<input class="normal" type="checkbox" name="revistas"> Revistas en PDF <br>
+			<input class="normal" type="checkbox" name="revistas"> Revistas en MP3 <br>
+			<input class="normal" type="checkbox" name="videos"> Videos <br>			
+			<input class="normal" type="checkbox" name="otro">Otro
+			</fieldset>
+
+		</div>
+		<br>
+		<br>
+		
+		<div>
+			<fieldset>
+            <legend> Ciudad</legend>
+			<input class="normal" type="radio" name="Localidad" value="mar del plata" checked="checked"> Mar del Plata<br>
+			<input class="normal" type="radio" name="Localidad" value="Azul">Azul <br>
+			<input class="normal" type="radio" name="Localidad" value="balcarce"> Balcarce <br>
+			<input class="normal" type="radio" name="Localidad" value="santa clara"> Santa Clara<br>
+			<input class="normal" type="radio" name="Localidad" value="olavarria"> Olavarria <br>
+			<input class="normal" type="radio" name="Localidad" value="ayacucho"> Ayacucho <br>	
+			</fieldset>
+		</div>
+		<br>
+		<br>
+
+<div>
+			<fieldset>
+            <legend> Forma de envio</legend>
+			<input class="normal" type="radio" name="Forma de envio" value="envio"> Correo Agentino<br>
+			<input class="normal" type="radio" name="Forma de envio" value="envio"> Oca<br>
+			<input class="normal" type="radio" name="Forma de envio" value="envio"> Andreani<br>
+			
+		    </fieldset>
+			<br>
+			<br>
+			
+		</div>
+		<br>
+		<div>
+			<label for="entrega">Entrega en</label>
+			<select name="entrega" id="entrega">
+				<option value="sucursal">Retiro en Sucursal </option>
+				<option value="domicilio">Domicilio</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label for="domicilio">Domicilio</label><br>
+			<input class="normal" type="text" name="domicilio">
+		</div>
+		<br>
+		<div>
+			<fieldset>
+            <legend> Horario de entrega a domicilio</legend>
+			<input class="normal" type="radio" name="horario" value="mañana" checked="checked"> de 8 a 12 <br>
+			<input class="normal" type="radio" name="horario" value="media tarde"> de 14 a 16<br>
+			<input class="normal" type="radio" name="horario" value="tardenoche"> de 17 a 20 <br>
+		    </fieldset>
+		</div>
+
+		
+	<h2>Realice aquí su consulta</h2>
+	<form action="">
+		<div>
+			
+			<textarea name="consulta" id="" cols="50" rows="10"></textarea>
+			<input class="btn btn-green" type="submit" name="enviar" value="Enviar">
+		</div>
+				
+	</form>
+
+<span class="pie">	
+				
+	<ul >
+        <li id="final"> Copyright ©</li>
+        <li id="final">2020</li>
+        <li id="final">Ezequiel Bauer/</li>
+        <li id="final">CONDICIONES DE USO/</li>
+        <li id="final">POLITICAS DE PRIVACIDAD</li>  
+        
+    </ul>
+
+</span>
+
+</div>
+
+</body>
+</html>
+
+

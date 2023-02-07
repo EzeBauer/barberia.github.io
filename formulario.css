@@ -1,0 +1,135 @@
+.sup{
+	background-color: white;
+	width: 1000px;
+	height: 40px;
+    margin: 0 auto; 
+
+} 
+
+ .ulmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  height: 60px;
+
+}
+
+.menu {
+  float: left;
+}
+
+
+.menu1 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+
+a.activo:hover {
+  background-color: #111111;
+}
+
+
+body {
+	background-color: #DCDCDC;
+	margin: 0 auto;
+}
+
+.caja{
+	background-color: white;
+	width: 1000px;
+    margin: 0 auto; 
+    
+  }
+
+
+
+form{
+	margin: 0 auto;
+	width: 500px;
+	background-color: white;
+	color: #999;
+	font-size: 1em;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+input,textarea {
+	outline: none;
+	border: 0;
+	width: 280px;
+}
+
+
+.normal {
+	border: solid 1px #ccc;
+	padding: 20px;
+	width: 280px;
+
+}
+
+.normal:focus{
+	border-color: #18A383;
+}
+
+.btn{
+	border-radius: 3px;
+	display:inline-block;
+	justify-content: center;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.btn-green {
+	color: white;
+	background-color: #3CC93F;
+	
+}
+
+.btn-green:hover {
+	background-color: #37B839;
+}
+
+.btn-green:active {
+	background-color: #29962A;
+}
+
+h2 {text-align: center;
+
+}
+
+legend {
+	color:black;
+	text-align: center;
+	font-weight: bold; 
+}
+label {
+	color:black;
+	font-weight: bold; 
+	width: 200px;
+
+}
+
+.pie {
+	display: flex;
+	justify-content: center;
+	background-color: #333333;
+	height: 50px;
+}
+
+#final {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
